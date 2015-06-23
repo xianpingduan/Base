@@ -4,6 +4,8 @@
  */
 package com.xp.base;
 
+import org.androidannotations.annotations.EApplication;
+
 import android.app.Application;
 
 /**
@@ -11,6 +13,7 @@ import android.app.Application;
  * 2015年6月19日-下午2:47:13
  * @author allenduan
  */
+@EApplication
 public class BaseApplication extends Application{
     
     /* (non-Javadoc)

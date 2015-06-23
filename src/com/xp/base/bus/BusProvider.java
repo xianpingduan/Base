@@ -4,6 +4,9 @@
  */
 package com.xp.base.bus;
 
+import org.androidannotations.annotations.EBean;
+import org.androidannotations.annotations.EBean.Scope;
+
 import com.squareup.otto.Bus;
 
 /**
@@ -11,6 +14,7 @@ import com.squareup.otto.Bus;
  * 2015年6月19日-下午2:39:52
  * @author allenduan
  */
+@EBean(scope = Scope.Singleton)
 public class BusProvider {
 
     private Bus mBus;

@@ -4,6 +4,8 @@
  */
 package com.xp.base.activity;
 
+import org.androidannotations.annotations.EActivity;
+
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 
@@ -13,6 +15,7 @@ import android.support.v4.app.FragmentActivity;
  * 2015年6月19日-下午2:47:35
  * @author allenduan
  */
+@EActivity
 public class BaseActivity extends FragmentActivity{
     
     /* (javadoc)
